@@ -8,9 +8,9 @@ import { Provider } from 'react-redux'
 import configureStore from './store/configureStore'
 //import { increment } from '.actions/countAction'
 const store = configureStore()
-//console.log('redux initial state', store.getStore())
+console.log('redux initial state', store.getStore())
 
-//console.log('redux initial state', store.getState())
+console.log('redux initial state', store.getState())
 
 ReactDOM.render(<App />,
   document.getElementById('root')
