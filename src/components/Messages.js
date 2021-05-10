@@ -15,7 +15,7 @@ class Messages extends React.Component {
                         return <MessageItem key={message.id} id={message.id} body={message.body} createdAt={message.createdAt} />
                        })
                    }
-
+{/*  */}
                 <MessageForm />
             </div>
         )

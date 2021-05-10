@@ -23,7 +23,7 @@ class MessageForm extends React.Component {
         e.preventDefault()
         const formData = {
             // id: Number(new Date()), 
-            id: uuidv4(),
+            // id: uuidv4(),
             body: this.state.body,
             createdAt: new Date()
         }
