@@ -1,6 +1,6 @@
 import { createStore, combineReducers } from 'redux'
 import countReducer from '../reducers/countReducer'
-import messagesReducer from '../reducers/messagesReducer'
+import messagesReducer from '../reducers/messageReducer'
 
 const configureStore = () => {
     const store = createStore(combineReducers({
